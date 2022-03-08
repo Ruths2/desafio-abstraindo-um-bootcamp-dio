@@ -5,6 +5,10 @@ public class Mentoria {
     private String titulo;
     private String descricao;
     private LocalDate data;
+    
+    public Mentoria() {
+        
+    }
 
     public void setData(LocalDate data) {
         this.data = data;
