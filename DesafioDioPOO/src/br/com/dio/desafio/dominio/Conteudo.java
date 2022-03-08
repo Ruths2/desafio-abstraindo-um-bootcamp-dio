@@ -4,8 +4,11 @@ public abstract class Conteudo {
     
     protected static final double XP_PADRAO = 10;
     
+    public abstract double calcularXp();
+    
     private String titulo;
     private String descricao;
+    
 
     public void setTitulo(String titulo) {
         this.titulo = titulo;
@@ -22,7 +25,4 @@ public abstract class Conteudo {
     public String getDescricao(){
         return descricao;
     }
-    
-    public abstract double calcularXp();
-    
 }
