@@ -10,6 +10,7 @@ public class Main {
   public static void main(String[] args) {
       Curso curso1 = new Curso();
       
+      
       curso1.setTitulo("curso java");
       curso1.setDescricao("descricao curso js");
       curso1.setCargaHoraria(8);
@@ -34,27 +35,33 @@ public class Main {
       Dev devCamila = new Dev();
       devCamila.setNome("Camila");
       devCamila.inscreverBootcamp(bootcamp);
-      System.out.println("Conteúdos Inscritos Camila:" + devCamila.getConteudosInscritos());
+      System.out.println("*********************************\n");
+      System.out.println("Conteúdos Inscritos Camila:\n" + devCamila.getConteudosInscritos());
       devCamila.progredir();
       devCamila.progredir();
-      System.out.println("-");
-      System.out.println("Conteúdos Inscritos Camila:" + devCamila.getConteudosInscritos());
-      System.out.println("Conteúdos Concluídos Camila:" + devCamila.getConteudosConcluidos());
+      System.out.println("\n*********************************\n");
+      System.out.println("PROGREDINDO ... ");
+      System.out.println("\n*********************************\n");
+      System.out.println("Conteúdos Inscritos Camila:\n" + devCamila.getConteudosInscritos());
+      System.out.println("Conteúdos Concluídos Camila:\n" + devCamila.getConteudosConcluidos());
       System.out.println("XP:" + devCamila.calcularTotalXp());
 
-      System.out.println("-------");
+      System.out.println("\n*********************************\n");
 
       Dev devJoao = new Dev();
       devJoao.setNome("Joao");
       devJoao.inscreverBootcamp(bootcamp);
-      System.out.println("Conteúdos Inscritos João:" + devJoao.getConteudosInscritos());
+      System.out.println("Conteúdos Inscritos João:\n" + devJoao.getConteudosInscritos());
       devJoao.progredir();
       devJoao.progredir();
       devJoao.progredir();
-      System.out.println("-");
-      System.out.println("Conteúdos Inscritos João:" + devJoao.getConteudosInscritos());
-      System.out.println("Conteúdos Concluidos João:" + devJoao.getConteudosConcluidos());
+      System.out.println("\n*********************************\n");
+      System.out.println("PROGREDINDO ... ");
+      System.out.println("\n*********************************\n");
+      System.out.println("Conteúdos Inscritos João:\n" + devJoao.getConteudosInscritos());
+      System.out.println("Conteúdos Concluidos João:\n" + devJoao.getConteudosConcluidos());
       System.out.println("XP:" + devJoao.calcularTotalXp());
+      System.out.println("\n*********************************");
       
       /*System.out.println(curso1);
       System.out.println(curso2);
